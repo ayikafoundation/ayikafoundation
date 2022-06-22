@@ -26,3 +26,20 @@
 .typed{
     color: #F4CFB7;
 }
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .text-box{
+        max-width:80%
+    }
+    .text-box h1{
+        font-size: 3.5rem;
+    }
+    .text-box p{
+        font-size: 1rem;
+    }
+}
