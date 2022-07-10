@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 /* 
 .col-sm-4{
     min-height: 50vh;
@@ -12,6 +13,10 @@
 } */
 .container{
     margin-top: 20px;
+}
+.heading{
+    font-family: 'Merriweather', serif;
+    color: #1c551b;
 }
 .card{
     border-radius: 15px;
