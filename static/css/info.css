@@ -1,0 +1,26 @@
+
+#card-body{
+    background-color: #de99cf !important;
+
+}
+#card{
+    border: 1px solid;
+    box-shadow: 5px 10px;
+}
+.title2{
+    color: rgb(56, 143, 56);
+    font-weight: bolder;
+    font-family: 'Publico Headline Web Bold', sans-serif !important;
+}
+
+.card-text{
+    font-size: 1.25rem !important;
+    color: white !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #card-body{
+        font-size: 20px;
+    }
+}
