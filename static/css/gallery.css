@@ -1,0 +1,10 @@
+.item:hover{
+    filter: brightness(80%);
+}
+.item{
+    transition: .5s, ease-in-out;
+}
+/* .container img{
+    height: 300px !important;
+    width: 300px !important;
+} */

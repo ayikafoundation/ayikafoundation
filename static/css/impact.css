@@ -13,14 +13,17 @@
 } */
 .container{
     margin-top: 20px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
 }
 .heading{
-    font-family: 'Merriweather', serif;
+    font-family: Publico, sans-serif;
     color: #1c551b;
+    padding-top: 20px;
 }
 .card{
     border-radius: 15px;
-    border: 2px dotted #388F38;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
 }
 .col-12 col-lg-4{
     border-radius: 15px;
@@ -29,6 +32,7 @@
     text-align: center;
     background-color: rgb(179, 231, 170);
     border-radius: 15px;
+    
 }
 .card-title{
     color:rgb(56, 143, 56);

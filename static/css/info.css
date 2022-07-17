@@ -1,21 +1,37 @@
 
 #card-body{
-    background-color: #de99cf !important;
+    background-color: transparent !important;
 
 }
 #card{
-    border: 1px solid;
-    box-shadow: 5px 10px;
+    background-color: transparent !important;
+    border: 1px solid #1c551b;
+    box-shadow: 5px 10px #1c551b;
 }
 .title2{
-    color: rgb(56, 143, 56);
+    background-color: #1c551b;
+        background-image: linear-gradient(to bottom, #2fb68a, #2ea27a, #2c8e6a, #297b5b, #25684c);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+        background-clip: text;
     font-weight: bolder;
-    font-family: 'Publico Headline Web Bold', sans-serif !important;
+    font-family: 'Publico', sans-serif !important;
+    font-size: 2rem;
 }
 
 .card-text{
     font-size: 1.25rem !important;
-    color: white !important;
+    background-color: #1c551b;
+        background-image: linear-gradient(to bottom, #2fb68a, #2ea27a, #2c8e6a, #297b5b, #25684c);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+        background-clip: text;
 }
 
 
