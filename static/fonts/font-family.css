@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Medium";
-    src: url(/static/fonts/Medium.otf);
+    src: url(static/fonts/Medium.otf);
 }
 @font-face {
     font-family: "Publico";
-    src: url(/static/fonts/Publico.ttf);
+    src: url(static/fonts/Publico.ttf);
 }
