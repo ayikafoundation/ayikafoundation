@@ -1,9 +1,26 @@
-.item:hover{
+/* .item:hover{
     filter: brightness(80%);
 }
-.item{
+.image{
     transition: .5s, ease-in-out;
+    max-width: 600px;
+    max-height: 700px;
+    margin-right: 10px;
+    padding: 20px;
 }
+.container{
+    max-width: 90% !important;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .image {
+            max-width: 100vw;
+        }
+
+} */
+
 /* .container img{
     height: 300px !important;
     width: 300px !important;
