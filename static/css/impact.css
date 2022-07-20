@@ -13,8 +13,6 @@
 } */
 .container{
     margin-top: 20px;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
-        clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
 }
 .heading{
     font-family: Publico, sans-serif;
@@ -46,7 +44,7 @@
 }
 .card-text{
     font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Medium', sans-serif;
 }
 b{
     color: rgb(33, 141, 33)

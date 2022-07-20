@@ -1,6 +1,7 @@
-from PIL import Image
-
-for i in range(6, 69):
-    image = Image.open(f"static/img/{i}.jpeg")
-    if image.size != (720, 1600):
-        
+import os
+i=1
+path="static/gallery"
+files = os.listdir(path)
+for file in files:
+    os.rename(f"{path}/{file}", f"{path}/{i}.jpeg")
+    i+=1
