@@ -14,7 +14,7 @@
     height:100vh;
     min-height:300px;
     background-color: rgba(39, 38, 38, 0.6);
-
+    filter: grayscale() blur(2px) opacity(0.6) brightness(50%);
 }
 
 .w-100{
@@ -23,7 +23,7 @@
 
 .text-box{
 
-    color:#f4e4e4;
+    color:#eee;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,11 +33,10 @@
 
 .text-box h1{
     font-size: 5rem;
-
 }
 .text-box h3{
     font-size: 2rem;
-    color: #ffd3d3;
+    
     font-family: 'Nanum Gothic', sans-serif;
     margin: 0;
 
@@ -48,7 +47,7 @@
 }
 
 .typed{
-    color: #F4CFB7;
+    color: #e49b6b;
 }
 
 
