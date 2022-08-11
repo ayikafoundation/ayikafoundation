@@ -1,0 +1,37 @@
+.title2{
+    color: #248564;
+    font-weight: bolder;
+    font-family: 'Publico', sans-serif !important;
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.text{
+    font-size: 1.25rem !important;
+    color: #248564;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #card-body{
+        font-size: 20px;
+    }
+}
+
+.colun{
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#column1{
+    /* padding-left: 10%; */
+    background-color: #318B69;
+    color:#fff !important;
+    padding: 20px;
+}
+/*
+#column2{
+   padding-right:10% ;
+} */

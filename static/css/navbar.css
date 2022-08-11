@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.navbar{
+    z-index: 100;
+}
+.navbar-brand{
+    margin-left: 25px;
+}
+.nav-item{
+    font-family: 'Medium', sans-serif;
+    font-size: 1.5rem;
+    
+    margin: 0 15px;
+}
+.nav-link{
+    font-family: 'Medium', sans-serif;
+    font-weight: bold;
+    transition: transform 1s;
+    color: #248564;
+}
+.navbar-toggler-icon{
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(36, 133, 100, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.nav-link:hover{
+    transform: scale(1.1);
+    color: #094d36;
+;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+.dropdown-item{
+    font-family: 'Medium', sans-serif;
+}
+.dropdown-item:hover{
+    background-color: #74baa3;
+}

@@ -1,0 +1,23 @@
+/* .container{
+    max-width: 90%;
+
+} */
+
+.card{
+    align-items: center;
+}
+.card-img-top{
+    height: 500px;
+    width:  600px;
+    
+}
+.normal{
+    width: 332px !important;
+    height: 300px !important;
+}
+.card-body{
+    width: fit-content;
+}
+.card-text{
+    text-align:center;
+}

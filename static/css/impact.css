@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+/* 
+.col-sm-4{
+    min-height: 50vh;
+    padding: 20px;
+    margin: 20px 20px;
+    border: 1px solid #fff;
+    background-color:antiquewhite;
+    border-radius: 15px;
+
+} */
+.container{
+    margin-top: 20px;
+}
+.heading{
+    font-family: Publico, sans-serif;
+    color: #1c551b;
+    padding-top: 20px;
+}
+.card{
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
+}
+.col-12 col-lg-4{
+    border-radius: 15px;
+}
+.card-body{
+    text-align: center;
+    background-color: rgb(179, 231, 170);
+    border-radius: 15px;
+    
+}
+.card-title{
+    color:rgb(56, 143, 56);
+    font-weight: bolder;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.card-img{
+    
+    filter: invert(43%) sepia(50%) saturate(525%) hue-rotate(70deg) brightness(98%) contrast(99%);
+    margin-bottom: 10px;
+}
+.card-text{
+    font-size: 1rem;
+    font-family: 'Medium', sans-serif;
+}
+b{
+    color: rgb(33, 141, 33)
+}
+.row{
+    margin-bottom: 10px;
+}
